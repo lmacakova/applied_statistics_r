@@ -26,24 +26,6 @@ Tasks:
 1.  Comparing the resting heart rates of smokers and non-smokers from dataset containing resting heart rates for a sample of patients, along with whether they smoke or not. Calculate the t-statistic based on the data set, using Python without scipy or statsmodels. 
 2. Comparing it to the value given by scipy.stats. Explain your work and list any sources used.
 
-Patient ID	Smokes	Resting Heart Rate
-0	Yes	81
-1	No	68
-2	Yes	69
-3	Yes	76
-4	No	74
-5	Yes	77
-6	Yes	79
-7	No	75
-8	Yes	61
-9	No	68
-10	Yes	74
-11	No	72
-12	Yes	73
-13	Yes	70
-14	No	67
-15	No	67
-
 Solution:
 
 
