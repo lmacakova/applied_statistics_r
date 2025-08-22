@@ -13,7 +13,7 @@ Solution:
 ## Problem 2: Normal Distribution
 
 Task:
-1.  Evaluate whether numpy.random.standard_normal() generates values from a true normal distribution by generating a sample of 100,000 values. 
+1.  Evaluate whether numpy.random.standard_normal() generates values from a true normal distribution[^2] by generating a sample of 100,000 values. 
 2.  Then use scipy.stats.shapiro() to test whether the sample comes from a normal distribution. Explain the test results and output clearly. 
 3. Create a histogram of sample and overlay the probability density function (PDF) of the standard normal distribution on the histogram. Clearly explain your reasoning and code.
 
@@ -49,5 +49,7 @@ Solution:
 
 Resources:
 [^1]:   https://en.wikipedia.org/wiki/Lady_tasting_tea 
+[^2]:   https://en.wikipedia.org/wiki/Normal_distribution
+
 
 
