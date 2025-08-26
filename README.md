@@ -1,4 +1,5 @@
-# applied_statistics_r
+
+# Applied_statistics
 ## Problem 1: Combinations and Simulation
 
 The Lady Tasting Tea experiment[^1] when 10 cups of tea are used, 3 cups have milk added first, 7 cups have tea added first, the cups are thoroughly shuffled so that they seemingly cannot be told apart. 
