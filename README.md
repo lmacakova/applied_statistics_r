@@ -1,4 +1,4 @@
-![A futuristic financial interface on a dark blue background, with blue and violet 3D bar charts and overlaid line graphs that illustrate stock market or fintech data trends.](https://unsplash.com/photos/concept-of-stock-market-and-fintech-data-analysis-blue-and-violet-digital-bar-charts-over-dark-blue-background-futuristic-financial-interface-3d-rendering-LaU3HadwEeE)
+![](https://thumbs.dreamstime.com/b/statistics-3561801.jpg)
 # Applied_statistics
 ## Problem 1: Combinations and Simulation
 
