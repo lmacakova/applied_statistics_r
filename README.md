@@ -5,26 +5,26 @@
 The Lady Tasting Tea experiment[^1] when 10 cups of tea are used, 3 cups have milk added first, 7 cups have tea added first, the cups are thoroughly shuffled so that they seemingly cannot be told apart. 
 
 Tasks:
-1.  Calculate probability of randomly selecting exactly the 3 cups with milk added first.
-2.  Then simulate the process 1,000 times to verify result. Clearly explain your reasoning and code.
+1.  Calculating the probability of randomly selecting exactly the 3 cups with milk added first.
+2.  The simulation of the process 1,000 times to verify result.
 
-Solution:
+Solution: I counted the probability of choosing certain number of cups with hypergeometric formula[^2] and made a simulation of random choosing 3 cups from 10 in 1,000. I found the results of probability from the simulation fluctuating, so I increased the number of trials to 1,000,000, to reach the theoretical values of probability.
 
 
 ## Problem 2: Normal Distribution
 
 Task:
-1.  Evaluate whether numpy.random.standard_normal() generates values from a true normal distribution[^2] by generating a sample of 100,000 values. 
-2.  Then use scipy.stats.shapiro() to test whether the sample comes from a normal distribution. Explain the test results and output clearly. 
-3. Create a histogram of sample and overlay the probability density function (PDF) of the standard normal distribution on the histogram. Clearly explain your reasoning and code.
+1.  Evaluating whether numpy.random.standard_normal() generates values from a true normal distribution[^3] by generating a sample of 100,000 values. 
+2.  Using scipy.stats.shapiro()[^4] to test whether the sample comes from a normal distribution.  
+3. Creating a histogram[^5] of sample and overlaying the probability density function (PDF)[^6] of the standard normal distribution on the histogram.
 
-Solutions:
+Solutions: I generated a sample of 100,000 values, and tested it with Shapiro-Wilk test. I chose Kolmogorov-Smirnov[^7] test to further prove the normal distribution of data. Than I created a histogram of data and describe characteristics of normal distribution of data.
 
 
 ## Problem 3: t-Tests
 
 Tasks:
-1.  Comparing the resting heart rates of smokers and non-smokers from dataset containing resting heart rates for a sample of patients, along with whether they smoke or not. Calculate the t-statistic based on the data set, using Python without scipy or statsmodels. 
+1.  Comparing the resting heart rates of smokers and non-smokers from dataset containing resting heart rates for a sample of patients, along with whether they smoke or not. Calculating the t-statistic[^8] based on the data set, using Python without scipy or statsmodels. 
 2. Comparing it to the value given by scipy.stats. Explain your work and list any sources used.
 
 Solution:
@@ -49,8 +49,13 @@ Solution:
 
 
 Resources:
-[^1]:   https://en.wikipedia.org/wiki/Lady_tasting_tea 
-[^2]:   https://en.wikipedia.org/wiki/Normal_distribution
-
+[^1]:   https://en.wikipedia.org/wiki/Lady_tasting_tea
+[^2]:   https://www.youtube.com/watch?v=uzN7U88KSx8
+[^3]:   https://en.wikipedia.org/wiki/Normal_distribution
+[^4]:   https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html#shapiro
+[^5]:   https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.histhtml#matplotlib-pyplot-histd
+[^6]:   https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html#scipy-stats-norm
+[^7]:   https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kstest.html#kstest
+[^8]:   https://en.wikipedia.org/wiki/Student%27s_t-test
 
 
