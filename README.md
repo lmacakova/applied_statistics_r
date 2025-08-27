@@ -1,4 +1,4 @@
-![](https://thumbs.dreamstime.com/b/statistics-3561801.jpg)
+![magnifying glass over math's formulas](https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg)
 # Applied_statistics
 ## Problem 1: Combinations and Simulation
 
