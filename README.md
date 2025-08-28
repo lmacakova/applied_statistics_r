@@ -71,7 +71,7 @@ Solution: First, I checked assumptions about samples, so the test could be done 
 ## Problem 4: Type I Error
 Tasks: 
 1. Generating three samples with 100 values each with numpy.random.standard_normal()
-2. Performing one-way ANOVA[^10] on the three samples in 10,000 trials and counting whenever a type I error occurs.
+2. Performing one-way ANOVA[^10] on the three samples in 10,000 trials and counting whenever a type I error occurs[^11].
 
 Solution: I generated 3 samples with 100 values, performed the ANOVA test in a loop of 10,000 trials, and counted the probability of type I error. 
 
@@ -93,8 +93,8 @@ Resources:\
 [^7]:   https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kstest.html#kstest
 [^8]:   https://en.wikipedia.org/wiki/Student%27s_t-test
 [^9]:   https://en.wikipedia.org/wiki/Welch%27s_t-test
-[^10]:  https://en.wikipedia.org/wiki/Type_I_and_type_II_errors
-[^11]:  https://en.wikipedia.org/wiki/Analysis_of_variance
+[^10]:  https://en.wikipedia.org/wiki/Analysis_of_variance
+[^11]:  https://en.wikipedia.org/wiki/Type_I_and_type_II_errors  
 [^12]:  https://en.wikipedia.org/wiki/Binomial_distribution 
 
 Contact:\
