@@ -82,8 +82,12 @@ Tasks:
 
 Solution: I describe the binomial distribution and simulate it using numpy.random.binomial. I explain the resemblances and differences between binomial and normal distributions and the reasons behind them. 
 
+## Contact:
+Lucia Macakova\
+email: G00439449@atu.ie
 
-Resources:\
+
+## Resources:
 [^1]:   https://en.wikipedia.org/wiki/Lady_tasting_tea
 [^2]:   https://www.youtube.com/watch?v=uzN7U88KSx8
 [^3]:   https://en.wikipedia.org/wiki/Normal_distribution
@@ -96,9 +100,3 @@ Resources:\
 [^10]:  https://en.wikipedia.org/wiki/Analysis_of_variance
 [^11]:  https://en.wikipedia.org/wiki/Type_I_and_type_II_errors  
 [^12]:  https://en.wikipedia.org/wiki/Binomial_distribution 
-
-Contact:\
-Lucia Macakova\
-email: G00439449@atu.ie
-
-
